@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">AgenciaDisenadores</string>
+    <string name="usuario">Escribe tu nombre de Usuario</string>
+    <string name="contraseña">Escribe tu Contraseña</string>
+    <string name="olvide_datos">OLVIDE MIS DATOS</string>
+    <string name="iniciar_sesion">INICIAR SESIÓN</string>
+    <string name="login">Login</string>
+    <string name="galeri">Galería</string>
+    <string name="add_widget">Add widget</string>
+    <string name="texto_gestor">Gestor de Diseños</string>
+    <string name="texto_usuario">Nombre de Usuario</string>
+</resources>

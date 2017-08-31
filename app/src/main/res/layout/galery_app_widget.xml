@@ -1,0 +1,51 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBlanco"
+    android:padding="@dimen/widget_margin">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_marginTop="@dimen/margenes_imagenes"
+        android:weightSum="1">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:src="@mipmap/ic_persona"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/appwidget_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:background="@color/colorBlanco"
+            android:text="@string/texto_gestor"
+            android:textColor="@color/colorAccent"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/appwidget_subtext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:background="@color/colorBlanco"
+            android:text="@string/texto_usuario"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/colorAccent"
+            android:textStyle="bold|italic" />
+        </LinearLayout>
+
+</LinearLayout>
